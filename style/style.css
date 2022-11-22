@@ -1,0 +1,175 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: sans-serif;
+
+}
+.profile{
+    width: 40%;
+    float: right;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-bottom: 100px solid rgb(13, 234, 241);
+}
+.profile h1{
+    font-family: cursive;
+
+}
+.about{
+    margin-left: 15px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.profile-info{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.profile-info::-webkit-scrollbar{
+     width: 0;
+}
+.profile-info h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.social{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.social img{
+   width: 25px;
+   margin-right: 15px; 
+   cursor: pointer;
+   transition: 2s;
+}
+.social img:hover{
+   transform: rotate(360deg);
+}
+.profile-info h2{
+   margin-top: 50px ;
+   margin-bottom: 15px;
+}
+.services{
+   display: inline-block;
+   width: 28%;
+   padding: 30px 10px;
+   margin: 2%;
+   text-align: center;
+   box-shadow: 0 0 15px rgba(37, 74, 214, 0.18);
+}
+.services img{
+    width: 60%;
+    margin: 5px; 
+}
+.services small{
+    padding-top: 15px;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.progects img{
+ width: 31%;
+ padding: 4px;
+ margin-bottom: 5px;
+ margin-left: 3px;
+ border: 1px  solid gray;
+ cursor: pointer;
+}
+.form-box{
+    margin-top: 30px;
+}
+
+.input-group input{
+    width: 45%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    background-color: rgb(217, 240, 116);
+    margin: 2%;
+    display: inline-block;
+}
+.textarea textarea{
+    width: 95%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    background-color: rgb(232, 241, 92);
+    margin: 2%;
+}
+.sub{
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    background-color: rgb(16, 86, 236);
+    margin: 2%;
+    font-weight:bold ;
+    color: white;
+    cursor: pointer;
+}
+.cont{
+    margin: 5% 0 5% 25%;
+    width: 65%;
+}
+.cont img{
+    width: 20px;
+    margin: -5px 10px;
+}
+.cont span{
+    margin: 3%;
+}
+.copy{
+    text-align: center;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.sub{display:inline-block;
+    padding: 10px 25px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+    transition-duration: 0.1s;
+}
+.sub:hover{background-color: red;
+    color: white;}
+.sub:active{background-color: #3e3e3e;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+@media only screen and (max-width:915px){
+    .profile-info{
+        width: 95%;
+    }
+    .profile{
+        width: 95%;
+    }
+    .profile img{
+        width: 90%;
+    }
+    .services{
+        width: 95%;
+        margin-bottom: 15px;
+    }
+    .cont span{
+        font-size: 10px;
+    }
+    .cont img{
+        width: 12px;
+    }
+}
